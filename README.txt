@@ -1,6 +1,6 @@
 BeginningAlgorithmContests>> Second edition
 
-	Record execise
+	Record exercise
 
 connect me : billy.ruzheng@gmail.com
 
