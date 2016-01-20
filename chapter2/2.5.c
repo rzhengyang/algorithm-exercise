@@ -4,8 +4,8 @@
 int main(void)
 {
 #ifdef LOCAL
-        freopen("data.in","r",stdin);
-        freopen("data.out","w",stdout);
+        freopen("data2-5.in","r",stdin);
+        freopen("data2-5.out","w",stdout);
 #endif
         int a,b,c,tmp;
 	while(scanf("%d%d%d",&a,&b,&c) != EOF)
