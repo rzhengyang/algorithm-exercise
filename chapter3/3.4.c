@@ -12,12 +12,6 @@ int main(void)
 		num= strlen(s);
 		for(i=1;i<=num;i++)
 		{
-			if(s[i] == " ")
-			{
-				printf("%d\n",i);
-				printf("\n");
-				break;
-			}
 			if(num%i==0)
 			{
 				b=num/i;
