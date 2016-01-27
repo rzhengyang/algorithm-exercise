@@ -14,7 +14,6 @@ int main(void)
 			a=i;
 			while(a)
 			{	
-				
 				num[a%10]++;
 				a=a/10;
 			}
