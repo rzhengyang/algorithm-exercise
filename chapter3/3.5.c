@@ -25,7 +25,6 @@ int main(void)
 			{
 				if(s[i][0] =='Z')
 				{
-					printf("\n");
 					return 0;
 				}
 			}
@@ -48,12 +47,12 @@ int main(void)
 			{
 				switch(str[i])
 				{
-					case 'A':	s[spc_i][spc_j]=s[spc_i-1][spc_j];s[spc_i-1][spc_j]=' ';spc_i=spc_i-1;	break;
-					case 'B':	s[spc_i][spc_j]=s[spc_i+1][spc_j];s[spc_i+1][spc_j]=' ';spc_i=spc_i+1;	break;
-					case 'R':	s[spc_i][spc_j]=s[spc_i][spc_j+1];s[spc_i][spc_j+1]=' ';spc_j=spc_j+1;	break;
-					case 'L':	s[spc_i][spc_j]=s[spc_i][spc_j-1];s[spc_i][spc_j-1]=' ';spc_j=spc_j-1;	break;
-					case '0':	endFlag=1;		 break;
-					default:	endFlag=1;errFlag=1;	 break;
+					case 'A': s[spc_i][spc_j]=s[spc_i-1][spc_j];s[spc_i-1][spc_j]=' ';spc_i=spc_i-1; break;
+					case 'B': s[spc_i][spc_j]=s[spc_i+1][spc_j];s[spc_i+1][spc_j]=' ';spc_i=spc_i+1; break;
+					case 'R': s[spc_i][spc_j]=s[spc_i][spc_j+1];s[spc_i][spc_j+1]=' ';spc_j=spc_j+1; break;
+					case 'L': s[spc_i][spc_j]=s[spc_i][spc_j-1];s[spc_i][spc_j-1]=' ';spc_j=spc_j-1; break;
+					case '0': endFlag=1;	 break;
+					default: endFlag=1;errFlag=1;	break;
 				}
 				if(spc_i<0||spc_j<0||spc_i>4||spc_j>4)
 				{
