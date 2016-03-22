@@ -1,4 +1,3 @@
-o
 #define LOCAL
 #include<stdio.h>
 #include<string.h>
