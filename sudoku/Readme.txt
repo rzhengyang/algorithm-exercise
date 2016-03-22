@@ -1,3 +1,4 @@
+0
 Usage:
 	This is sudoku solve program.
 Platform:
